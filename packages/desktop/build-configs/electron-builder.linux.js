@@ -8,16 +8,7 @@ const config = Object.assign({}, commonConfig, {
   linux: {
     target: [
       {
-        target: 'AppImage'
-      },
-      {
-        target: 'snap'
-      },
-      {
-        target: 'deb'
-      },
-      {
-        target: 'rpm'
+        target: 'pacman'
       }
     ],
     category: 'Development',
